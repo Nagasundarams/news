@@ -1,0 +1,71 @@
+.card{
+    width: 50%;
+    height: auto;
+    background-color: rgba(248, 236, 255, 0.178);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;    margin-top: 2rem;
+    margin-left: 20%;
+    margin-right: 20%; 
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+    overflow:auto;
+
+}
+#dark {
+    .para{
+    color: white;
+}
+.card h5{
+    color: white;
+
+}
+.srcname{
+    color: white;
+
+}
+
+}
+#light {.para{
+    color: rgb(0, 0, 0);
+}
+.card a{
+    color: rgb(85, 124, 255);
+
+}
+
+}
+img{
+    width:100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: contain;
+    
+}
+#more{
+    display: none;
+}
+.srcname{
+    align-items: baseline;
+    justify-content:right;
+    float: right;
+    padding-bottom: 0%;
+    padding-top: 5%;
+    font-size: 0.75em;
+    color: rgb(0, 0, 0);
+} 
+
+
+@media only screen and (max-width: 1024px) {
+    .card{
+        width: 80%;
+        margin-left: 6.5%;
+        margin-right: 5%;
+    }
+}
+
+
+
+  
+  
+ 
